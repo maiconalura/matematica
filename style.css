@@ -1,61 +1,53 @@
 body{
-    background: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
-    margin: 0px;
-    font-family: "Gupter", serif;
-    font-weight: 500;
-    margin-bottom: 100px;
-}
-
-header{
-    border-bottom: solid 2px rgb(255, 166, 0);
-    padding: 15px;
-    font-size:32px;
-    color: rgb(0, 191, 255);
-}
-
-.chamada{
-    background: rgb(0, 0, 0);
-    padding-bottom: 70px ;
-    padding-top: 30px;
+    background-color: rgb(140, 0, 255);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
     display: flex;
     justify-content: center;
+    align-items : center;
+    height: 700px;
+    margin: 0;
 }
 
-.chamada-texto{
-    margin-right: 10%;
+button{
+    background-color: rgb(68, 0, 156);
+    color: rgb(255, 255, 255);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
 }
 
-h1{
-    font-size: 32px;
+.passo {
+    display: none;
 }
 
-p{
-    font-size: 32px;
+.passo.ativo{
+     display:block;
 }
 
-.categoria-videos{
-    display: flex;
-    overflow-x: auto;
-    gap: 8px;
+main {
+    text-align: center;
+    max-width: 50%;
 }
 
-.categoria{
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
+img{
+    max-width: 80%;
 }
 
-.categoria-videos img {
-    opacity: 0.4;
-    height: 180px;
-}
 
-.categoria-videos img:hover{
-    opacity: 1.0;
-    border : 3px solid rgb(255, 255, 255);
-}
 
-.categoria h2{
-    color:rgb(0, 191, 255);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

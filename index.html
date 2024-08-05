@@ -1,61 +1,139 @@
-<HTML lange="pt-br">
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula diferente</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>ALURAFLIX</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <header>ALURAFLIX</header>
-    <section class="chamada">
-        <div class="chamada-texto">
-            <h1>Velozes e Furiosos 10 é o PIOR Filme da SAGA?</h1>
-            <p>#velozes e furiosos</p>
+    <main>
+       <div class="passo ativo" id="passo-0"> 
+           <img src="alura foto.jfif" alt="">
+           <p>
+            olá,meu nome é Maicon, o criador do jogo, em matemática o que você prefere?
+           </p>
+        <button class="btn-proximo" data-proximo="1">multiplicação</button>
+       
+        <button class="btn-proximo" data-proximo="2">divisão</button>
         </div>
 
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/czzmnhg_3Oo?si=ALA3w7l4WkWZHmP7"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </section>
+        <div class="passo" id="passo-1"> 
+            <p>
+             então me responda quanto é 5x5
+            </p>
+         <button class="btn-proximo" data-proximo="3">10 </button>
+        
+         <button class="btn-proximo" data-proximo="4">25</button>
+         </div>
 
-    <section class="categoria">
-        <h2>Filmes e séries</h2>
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=SLLd5qmhdBs">
-                <img src="https://img.youtube.com/vi/SLLd5qmhdBs/maxresdefault.jpg"/>
-             </a>
-             
-             <a href="https://www.youtube.com/watch?v=lTSLVjHNRrg">
-                <img src="https://img.youtube.com/vi/lTSLVjHNRrg/maxresdefault.jpg"/>
-             </a>
+         <div class="passo" id="passo-2"> 
+            <p>
+             então me responda quanto é 15*3
+            </p>
+         <button class="btn-proximo" data-proximo="5">3</button>
+        
+         <button class="btn-proximo" data-proximo="6">5</button>
+         </div>
 
-             <a href="https://www.youtube.com/watch?v=hjrYBJO6THA">
-                <img src="https://img.youtube.com/vi/hjrYBJO6THA/maxresdefault.jpg"/>
-             </a>
+         <div class="passo" id="passo-4"> 
+            <p>
+             depois de responder me informe quanto é 10x12
+            </p>
+         <button class="btn-proximo" data-proximo="7">120</button>
 
-             <a href="https://www.youtube.com/watch?v=z-6wepi3nFM">
-                <img src="https://img.youtube.com/vi/z-6wepi3nFM/maxresdefault.jpg"/>
-             </a>
+         <button class="btn-proximo" data-proximo="8">112</button>
+         </div>
 
-             <a href="https://www.youtube.com/watch?v=rJeR03WqkLo">
-                <img src="https://img.youtube.com/vi/rJeR03WqkLo/maxresdefault.jpg"/>
-             </a>
-             
-             <a href="https://www.youtube.com/watch?v=FAfw5WxFDyw">
-                <img src="https://img.youtube.com/vi/FAfw5WxFDyw/maxresdefault.jpg"/>
-             </a>
-        </div>
-    </section>
+         <div class="passo" id="passo-6"> 
+            <p>
+             depois de responder me informe quanto é 2*2
+            </p>
+         <button class="btn-proximo" data-proximo="9">2</button>
 
+         <button class="btn-proximo" data-proximo="10">1</button>
+         </div>
+
+         <div class="passo" id="passo-7"> 
+            <p>
+             quanto é 10 elevado a 2 dica(10x10)
+            </p>
+         <button class="btn-proximo" data-proximo="11">100</button>
+
+         <button class="btn-proximo" data-proximo="12">1000</button>
+         </div>
+
+         <div class="passo" id="passo-10"> 
+            <p>
+             quanto é 120*10
+            </p>
+         <button class="btn-proximo" data-proximo="13">12</button>
+
+         <button class="btn-proximo" data-proximo="14">15</button>
+         </div>
+
+         <div class="passo" id="passo-11"> 
+            <p>
+             quanto é 5 elevado a 3 (5x5x5)
+            </p>
+         <button class="btn-proximo" data-proximo="15">105</button>
+
+         <button class="btn-proximo" data-proximo="16">125</button>
+         </div>
+
+         <div class="passo" id="passo-14"> 
+            <p>
+             quanto é 900*10
+            </p>
+         <button class="btn-proximo" data-proximo="18">80</button>
+
+         <button class="btn-proximo" data-proximo="19">90</button>
+         </div>
+
+         <div class="passo" id="passo-16"> 
+            <p>
+             se você chegou aqui meus parábens 
+            </p>
+         </div>
+        
+         <div class="passo" id="passo-18"> 
+            <p>
+             se você chegou aqui meus parábens 
+            </p>
+         </div>
+
+
+
+
+
+
+         
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    ,<script src="script.js"></script>
 </body>
-
-
-
-</HTML>
+</html>
